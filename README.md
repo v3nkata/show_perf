@@ -1,6 +1,7 @@
 # show_perf
 Compute and display various performance metrics using the POP methodology
 
+`talp_show_perf.py` : Compute and display metrics from one or more reports generated using DLB/TALP (https://pm.bsc.es/dlb)
 ```
 usage: talp_show_perf.py [-h] [-s {weak,strong}] talp_report [talp_report ...]
 
@@ -14,3 +15,4 @@ options:
   -s {weak,strong}, --scaling {weak,strong}
                         Type of scaling
 ```
+Currently supported programming models : MPI
